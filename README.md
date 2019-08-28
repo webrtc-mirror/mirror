@@ -21,7 +21,7 @@ WebRTC的依赖主要分为三类:
 3，google storage上的依赖， google storage上的内容非常庞大， 不好做镜像， 可以通过采用http代理的方式进行下载。
 
 
-在同步WebRTC的依赖过程中，git中的代码会从gitlab想对应的仓库中拉取， 不好镜像的部分我们提供了http代理进行下载。
+在同步WebRTC的依赖过程中，git中的代码会从gitlab相对应的仓库中拉取， 不好镜像的部分我们提供了http代理进行下载。
 
 
 ## 镜像说明
@@ -141,7 +141,6 @@ ninja -C out/mac  mac_framework_objc
 
 iOS平台
 
-
 ```
 cd src
 
@@ -163,7 +162,7 @@ gn gen  out/linux --args='is_debug=false target_cpu="x64" rtc_include_tests=fals
 ninja -C out/linux 
 ```
 
-Android 平台
+Android 平台（须在linux平台上编译）
 
 ```
 // 安装android依赖
@@ -187,7 +186,7 @@ Windows 平台
 
 ## 最后
 
-我们也在招聘WebRTC方向的人才，共同打造引领教育行业的音视频实时互动产品，有意见可以把简历发送至 `liulianxiang@100tal.com`
+我们也在招聘WebRTC方向的人才，共同打造引领教育行业的音视频实时互动产品，有意向可以把简历发送至 `liulianxiang@100tal.com`
 
 
 
