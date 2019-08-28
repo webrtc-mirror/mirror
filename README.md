@@ -184,6 +184,20 @@ Windows 平台
 //todo
 ```
 
+
+#### 清空http和https代理
+
+由于对http和https代理做了相应的白名单处理， 使用该http代理后访问其它的网站会被禁止， 在编译完WebRTC需要把http和https代理设置为空
+
+```
+
+export http_proxy=''
+export https_proxy=''
+
+```
+
+
+
 ## 最后
 
 我们也在招聘WebRTC方向的人才，共同打造引领教育行业的音视频实时互动产品，有意向可以把简历发送至 `liulianxiang@100tal.com`
