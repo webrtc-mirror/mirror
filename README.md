@@ -33,7 +33,7 @@ WebRTC的依赖主要分为三类:
 ## 感谢
 
 - 我们的镜像方案参考了声网的方案，具体可以看 https://rtcdeveloper.com/t/topic/14914
-- 感谢gitlab承载了部分webrtc代码和第三方依赖的代码
+- 感谢gitlab承载了部分webrtc代码和第三方依赖的代码  https://gitlab.com/webrtc-mirror
 - 感谢学而思网校提供的服务器带宽资源  
 
 
