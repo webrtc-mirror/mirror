@@ -1,6 +1,8 @@
 # webrtc-mirror
 
 
+`下载量较大目前暂停了服务，在申请更多资源后会再次开放`
+
 `学而思网校` 提供的WebRTC国内加速镜像,  https://gitlab.com/webrtc-mirror
 
 
