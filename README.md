@@ -145,7 +145,7 @@ iOS平台
 ```
 cd src
 
-python tools_webrtc/ios/build_ios_libs.py
+python tools_webrtc/ios/build_ios_libs.py  --output-dir  out/ios  --arch arm64  --extra-gn-args rtc_include_tests=false rtc_build_tools=false rtc_build_examples=false
 ```
 
 
@@ -176,7 +176,7 @@ gclient sync
 
 cd src
 
-python tools_webrtc/android/build_aar.py
+python tools_webrtc/android/build_aar.py  --build-dir out/android  --arch armeabi-v7a   --extra-gn-args rtc_include_tests=false rtc_build_tools=false rtc_build_examples=false
 ```
 
 Windows 平台
