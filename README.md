@@ -1,7 +1,6 @@
 # webrtc-mirror
 
 
-`下载量较大目前暂停了服务，在申请更多资源后会再次开放`
 
 `学而思网校` 提供的WebRTC国内加速镜像,  https://gitlab.com/webrtc-mirror
 
@@ -113,8 +112,8 @@ export PATH=$PATH:$WORKSPACE/depot_tools
 // http和https代理服务，因为是代理外网服务，有可能出现间歇性的不稳定，如果不工作可以提issuse
 // 请不要滥用该http和https代理服务，后面会加上黑名单服务
 
-export http_proxy=http://152.136.21.179:1087
-export https_proxy=http://152.136.21.179:1087
+export http_proxy=http://39.105.13.136:8080
+export https_proxy=http://39.105.13.136:8080
 ```
 
 #### 同步WebRTC
