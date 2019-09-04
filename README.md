@@ -167,15 +167,16 @@ ninja -C out/linux
 Android 平台（须在linux平台上编译）
 
 ```
-// 安装android依赖
-./build/install-build-deps-android.sh
 
 # 添加安卓平台
-echo "target_os = [ 'android' ]" >>.gclient
+echo "target_os = [ 'android' ]" >>  .gclient
 
 gclient sync 
 
 cd src
+
+// 安装android依赖
+./build/install-build-deps-android.sh
 
 python tools_webrtc/android/build_aar.py  --build-dir out/android  --arch armeabi-v7a   --extra-gn-args rtc_include_tests=false rtc_build_tools=false rtc_build_examples=false
 ```
