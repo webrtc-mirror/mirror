@@ -104,7 +104,7 @@ git config --global url.https://gitlab.com/webrtc-mirror/boringssl.git.insteadOf
 ```
 export WORKSPACE=$(pwd)
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
-export PATH=$PATH:$WORKSPACE/depot_tools
+export PATH=$WORKSPACE/depot_tools:$PATH
 ```
 
 #### 配置http和https代理
