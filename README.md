@@ -184,7 +184,11 @@ python tools_webrtc/android/build_aar.py  --build-dir out/android  --arch armeab
 Windows 平台
 
 ```
-//todo
+
+gn gen out/Win  --args='proprietary_codecs=true  is_debug=false target_cpu="x86"  ffmpeg_branding="Chrome" rtc_include_tests=false'
+
+ninja -C out/Win
+
 ```
 
 
