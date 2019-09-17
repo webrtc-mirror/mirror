@@ -2,7 +2,7 @@
 
 
 
-`学而思网校` 提供的WebRTC国内加速镜像
+`学而思网校` 提供的WebRTC国内加速镜像 https://github.com/webrtc-mirror/mirror
 
 
 ## 项目背景
