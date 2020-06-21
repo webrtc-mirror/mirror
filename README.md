@@ -2,14 +2,14 @@
 
 
 
-`学而思网校` 提供的WebRTC国内加速镜像 https://github.com/webrtc-mirror/mirror
+WebRTC国内加速镜像 https://github.com/webrtc-mirror/mirror
 
 
 
 
 ## 项目背景
 
-在构建学而思的低延迟互动直播网络的过程中需要经常的编译WebRTC，但由于WebRTC依赖较多（十几个G）， 而且大多数内容需要翻墙，这对我们编译工作造成很多困扰，我们尝试了多种加速编译的方法，最终找到一个对WebRTC代码没有任何侵入的镜像方案。
+在进行WebRTC开发的时候经常需要编译WebRTC，但由于WebRTC依赖较多（十几个G）， 而且大多数内容需要翻墙。 我们尝试了多种加速编译的方法，最终找到一个对WebRTC代码没有任何侵入的镜像方案。
 相信行业内的很多人都体验过WebRTC编译的痛苦，尤其是新接触WebRTC的人，我们决定提供这个WebRTC镜像的方案。快乐自己造福大家。
 
 
@@ -36,10 +36,7 @@ WebRTC的依赖主要分为三类:
 ## 感谢
 
 - 我们的镜像方案参考了声网的方案，具体可以看 https://rtcdeveloper.com/t/topic/14914
-- 感谢gitlab承载了部分webrtc代码和第三方依赖的代码，https://gitlab.com/webrtc-mirror
-- 感谢学而思网校提供的服务器带宽资源  
-
-
+- 感谢gitlab承载了部分webrtc代码和第三方依赖的代码，https://gitlab.com/webrtc-mirror  
 
 
 ## 编译步骤
@@ -211,11 +208,6 @@ export https_proxy=''
 
 - 为了加快下载和编译我们目前禁止掉了测试文件的下载， 所以在编译的时候请加上 `rtc_include_tests=false`
 - 为了节省代理流量，我们对通过代理的域名进行了过滤，只允许WebRTC相关域名通过
-
-
-## 最后
-
-我们也在招聘WebRTC方向的人才，共同打造引领教育行业的音视频实时互动产品，有意向可以把简历发送至 `liulianxiang@100tal.com`
 
 
 
